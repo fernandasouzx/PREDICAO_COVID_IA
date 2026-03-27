@@ -3,6 +3,19 @@
 > Desafio final da disciplina de Inteligência Artificial 2025/1, ministrada pelo professor Dr. Rafael Teixeira.  
 > O objetivo do desafio é prever o risco de morte para pacientes com COVID-19 no Brasil, utilizando dados do Ministério da Saúde que refletem características de pacientes reais brasileiros.
 
+## Objetivo do Projeto
+
+- Criar um modelo preditivo capaz de estimar a **probabilidade de óbito** em pacientes com COVID-19.  
+- Utilizar dados reais do **SIVEP-Gripe (Ministério da Saúde/SUS)**, incluindo informações demográficas, clínicas e de atendimento hospitalar.  
+- Aplicar técnicas de **pré-processamento, feature engenieer e modelagem preditiva**, considerando a métrica **F1**.
+
+## Modelagem
+
+- Foram testados diferentes algoritmos de machine learning, incluindo **LightGBM**, **Random Forest** e **HistGradientBoostingClassifier**.  
+- O modelo **HistGradientBoostingClassifier** apresentou o melhor desempenho com base na métrica **F1**, sendo escolhido como modelo final do projeto.  
+- A implementação e os experimentos estão disponíveis no notebook `HistGradientBoostingClassifier.ipynb`.
+
+--- 
 ## Estrutura do Repositório
 
 ├── Artigo/  
@@ -23,19 +36,7 @@
 
 ├── Makefile  
 
-## Objetivo do Projeto
-
-- Criar um modelo preditivo capaz de estimar a **probabilidade de óbito** em pacientes com COVID-19.  
-- Utilizar dados reais do **SIVEP-Gripe (Ministério da Saúde/SUS)**, incluindo informações demográficas, clínicas e de atendimento hospitalar.  
-- Aplicar técnicas de **pré-processamento, feature engenieer e modelagem preditiva**, considerando a métrica **F1**.
-
-## Modelagem
-
-- Foram testados diferentes algoritmos de machine learning, incluindo **LightGBM**, **Random Forest** e **HistGradientBoostingClassifier**.  
-- O modelo **HistGradientBoostingClassifier** apresentou o melhor desempenho com base na métrica **F1**, sendo escolhido como modelo final do projeto.  
-- A implementação e os experimentos estão disponíveis no notebook `HistGradientBoostingClassifier.ipynb`.
-
-
+---
 ## Equipe
 
 - **Anna Bheatryz M. Santos**  
