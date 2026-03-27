@@ -5,22 +5,9 @@
 
 ## Estrutura do Repositório
 ├── data/ # Dados (raw, interim, processed)
-
-├── src/ # Código principal (data_prep, features, train, infer, utils)
-
-├── scripts/ # Scripts auxiliares (ex.: download dados)
-
-├── notebooks/ # EDA, análises exploratórias e testes
-
-├── reports/ # Relatório final + métricas
-
-├── kaggle/ # Textos e instruções da competição
-
-├── configs/ # Arquivos de configuração YAML
-
 ├── requirements.txt # Dependências do projeto
-
 ├── Makefile # Comandos simplificados
+├── Notebook # CPipeline
 
 ## Objetivo do Projeto
 
