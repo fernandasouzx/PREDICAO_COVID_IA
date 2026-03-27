@@ -4,13 +4,16 @@
 > O objetivo do desafio é prever o risco de morte para pacientes com COVID-19 no Brasil, utilizando dados do Ministério da Saúde que refletem características de pacientes reais brasileiros.
 
 ## Estrutura do Repositório
+├── Artigo/ # artigo - relatorio do trabalho
+
 ├── data/ # Dados (raw, interim, processed)
+
+├── Notebooks # Pipeline
+
 
 ├── requirements.txt # Dependências do projeto
 
 ├── Makefile # Comandos simplificados
-
-├── Notebook # CPipeline
 
 ## Objetivo do Projeto
 
