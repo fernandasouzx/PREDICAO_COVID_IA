@@ -5,8 +5,11 @@
 
 ## Estrutura do Repositório
 ├── data/ # Dados (raw, interim, processed)
+
 ├── requirements.txt # Dependências do projeto
+
 ├── Makefile # Comandos simplificados
+
 ├── Notebook # CPipeline
 
 ## Objetivo do Projeto
